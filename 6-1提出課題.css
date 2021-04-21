@@ -1,0 +1,126 @@
+body {
+    padding-top: 109px;
+}
+
+.content {
+    margin: 30px 0px;
+}
+
+p {
+    text-indent: 1em;
+    font-size: 14px;
+}
+
+li {
+    list-style: none;
+    font-size: 14px;
+}
+
+h2 {
+    padding-left: 1.2rem;
+    border-bottom: solid 3px #d2b48c;
+    background-image: url("img-materials/icon.png");
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+    font-size: 20px;
+    color: #7b4513;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h3 img {
+    padding: 0px 3px 5px 0px;
+}
+.navbar-nav a {
+    padding:4px;
+}
+ul.side li a {
+    border-bottom: 1px dashed #DEB887 !important;
+}
+
+nav ul.side li a {
+    display: block;
+    background-image: url("img-materials/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 0 1.1rem;
+    line-height: 3rem;
+    font-size: 14px;
+    color: #777;
+    padding: 0px 10px;
+}
+.nav-item{
+    margin: 0 auto;
+}
+.navbar-nav a{
+    position: relative;
+    display: inline-block;
+}
+.nav-item a:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
+input{
+    max-width: 271px;
+}
+footer {
+    border-top: 1px solid #DEB887;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+footer P {
+    padding: 8px 8px;
+    margin: 0px;
+    text-align: center;
+    color: #D3D3D3;
+}
+
+ul.nav li a {
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+    width: 100%;
+}
+
+
+@media (max-width: 767px) {
+.top-toggler-icon {
+    margin-top: -40px;
+}
+.text-right {
+    text-align: right!important;
+    /*ハンバーガーメニューが左側だったのを右側にする*/
+}
+.text-center {
+    text-align: center!important;
+}
+.margin-auto {
+    margin: 0 auto;
+}
+button a {
+    outline: none;
+}
+body {
+    padding-top: 55px;
+}
+.logo {
+    width: 120px;
+}
+.navbar-nav a{
+    font-size: 15px;
+}
+}
+@media (min-width: 768px) {
+ul.navbar-nav {
+    margin-top: 7px;
+}
+ul.navbar-nav li:not(:first-child) a {
+    border-left: 1.5px solid #DEB887;
+}
+.navbar-nav a{
+    font-size:18px;
+}
+}
